@@ -1,6 +1,6 @@
 <?php
     // 
-    //require('controllers/.)
+    require('controllers/projectController.php');
     define("PAGE_TITLE", "Accueil"); // To define a constance, use define(): first param = name of de const, second param= title name
 ?>
 
