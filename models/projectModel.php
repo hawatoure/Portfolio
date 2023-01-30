@@ -10,6 +10,8 @@
         public  ?string $link_site;
         public  ?string $link_git;
         public string $cover;
+        public array $pictures;
+
 
         public function displayDateStart(){
             $dateTime = DateTime::createFromFormat("Y-m-d", $date_start);
@@ -21,6 +23,8 @@
             $this->date_end;
             return $dateTime->format("d-m-y");
         }
+
+        
 
 
 

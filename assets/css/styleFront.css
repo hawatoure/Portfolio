@@ -1,0 +1,13 @@
+
+*{
+;
+}
+
+nav.bg-dark {
+    --bs-bg-opacity: ;
+    background-color:#aba39d!important;
+}
+
+.footer{
+    background-color:#aba39d!important;
+}

@@ -26,8 +26,10 @@ $project = $controller->readAll();
 
 ?>
 <main>
-    <div class="container text-dark">
-        <h1 class="Mon portfolio text-dark"></h1>
+
+
+    <div class="container text-dark pt-5">
+        <h1 class="Mon portfolio text-dark pt-5">Mes projets</h1>
         <div class="row">
             <table>
                 <?php //var_dump($project);
@@ -45,10 +47,11 @@ $project = $controller->readAll();
                                 <li class="list-group-item"> Démarrage du projet : <?= $value->date_start ?></li>
                                 <li class="list-group-item">Démarrage du projet : <?= $value->date_end ?></li>
                             </ul>
-                            <div class="card-body">
-                                <a href="<?= $value->link_site ?>" target="_blank" class="card-link">Lien du site</a>
-                                <a href="" class="card-link">Lien Git Hub</a>
+                            <div class="card-body mx-auto">
+                                <a href="<?= $value->link_site ?>" target="_blank" class="card-link"><img src="assets/images/accueil/liens.png" alt="logo site web"></a>
+                                <a href="" class="card-link"><img src="assets/images/accueil/github.png" alt="logo github"> </a>
                             </div>
+                                <a href="detailProject.php?id=<?= $value->id_project ?>" ><button class="btn bg-success p-2 text-white bg-opacity-75 my-2 px-auto" type="submit">Afficher</button></a>
                         </div>
                     <?php
                         }
