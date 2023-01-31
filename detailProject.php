@@ -31,7 +31,7 @@ $oneProject = $controller->readOneProject($_GET["id"]);
   
                             ?>
                         <div class="card mx-auto m-3" style="width: 18rem;">
-                            <img src="./assets/images/project/<?= $oneProject->cover ?>" class="card-img-top" alt="project">
+                            <img src="/portfolio/assets/images/project/<?= $oneProject->cover ?>" class="card-img-top" alt="project">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $oneProject->name ?></h5>
                                 <p class="card-text"><?= $oneProject->description ?></p>
@@ -41,8 +41,8 @@ $oneProject = $controller->readOneProject($_GET["id"]);
                                 <li class="list-group-item">Démarrage du projet : <?= $oneProject->date_end ?></li>
                             </ul>
                             <div class="card-body mx-auto">
-                                <a href="<?= $oneProject->link_site ?>" target="_blank" class="card-link"><img src="assets/images/accueil/liens.png" alt="logo site web"></a>
-                                <a href="<?= $oneProject->link_git ?>" class="card-link"><img src="assets/images/accueil/github.png" alt="logo github"></a>
+                                <a href="<?= $oneProject->link_site ?>" target="_blank" class="card-link"><img src="/portfolio/assets/images/accueil/liens.png" alt="logo site web"></a>
+                                <a href="<?= $oneProject->link_git ?>" class="card-link"><img src="/portfolio/assets/images/accueil/github.png" alt="logo github"></a>
                             </div>  
 
             </table>
@@ -54,7 +54,7 @@ $oneProject = $controller->readOneProject($_GET["id"]);
         <?php  foreach($oneProject->pictures as $picture){ ?>   
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="./assets/images/project/<?=$picture->path ?>" class="d-block w-100 img-fluid" alt="<?=$picture->alt?>">
+                <img src="/portfolio/assets/images/project/<?=$picture->path ?>" class="d-block w-100 img-fluid" alt="<?=$picture->alt?>">
             </div>
             <?php  } ?>
         </div>

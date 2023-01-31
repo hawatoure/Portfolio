@@ -11,3 +11,17 @@ nav.bg-dark {
 .footer{
     background-color:#aba39d!important;
 }
+
+
+.footer {
+    background-color: #aba39d!important;
+}
+
+@media (min-width: 992px){.container, .container-lg, .container-md, .container-sm {
+    /* max-width: 960px; */
+}}
+
+@media (min-width: 768px){.container, .container-md, .container-sm {
+    /* max-width: 720px; */
+}}
+

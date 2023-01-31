@@ -38,7 +38,7 @@ $project = $controller->readAll();
                       
                             ?>
                         <div class="card mx-auto m-3" style="width: 18rem;">
-                            <img src="./assets/images/project/<?= $value->cover ?>" class="card-img-top" alt="project1">
+                            <img src="/portfolio/assets/images/project/<?= $value->cover ?>" class="card-img-top" alt="project1">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $value->name ?></h5>
                                 <p class="card-text"><?= $value->description ?></p>
@@ -48,10 +48,10 @@ $project = $controller->readAll();
                                 <li class="list-group-item">Démarrage du projet : <?= $value->date_end ?></li>
                             </ul>
                             <div class="card-body mx-auto">
-                                <a href="<?= $value->link_site ?>" target="_blank" class="card-link"><img src="assets/images/accueil/liens.png" alt="logo site web"></a>
-                                <a href="" class="card-link"><img src="assets/images/accueil/github.png" alt="logo github"> </a>
+                                <a href="<?= $value->link_site ?>" target="_blank" class="card-link"><img src="/portfolio/assets/images/accueil/liens.png" alt="logo site web"></a>
+                                <a href="" class="card-link"><img src="/portfolio/assets/images/accueil/github.png" alt="logo github"> </a>
                             </div>
-                                <a href="detailProject.php?id=<?= $value->id_project ?>" ><button class="btn bg-success p-2 text-white bg-opacity-75 my-2 px-auto" type="submit">Afficher</button></a>
+                                <a href="/portfolio/project/<?= $value->id_project ?>" ><button class="btn bg-success p-2 text-white bg-opacity-75 my-2 px-auto" type="submit">Afficher</button></a>
                         </div>
                     <?php
                         }
