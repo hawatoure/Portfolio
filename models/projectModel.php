@@ -11,6 +11,7 @@
         public  ?string $link_git;
         public string $cover;
         public array $pictures;
+        public ?array $skills;
 
 
         public function displayDateStart(){

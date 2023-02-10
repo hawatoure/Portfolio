@@ -32,13 +32,17 @@ $project = $controller->readAll();
         <h1 class="Mon portfolio text-dark pt-5">Mes projets</h1>
         <div class="row">
             <table>
-                <?php //var_dump($project);
+                <?php 
+                // echo "<pre>"; 
+                // var_dump($project);
+                // echo "</pre>";
+                
 
                     foreach($project as $value){
                       
                             ?>
                         <div class="card mx-auto m-3" style="width: 18rem;">
-                            <img src="/portfolio/assets/images/project/<?= $value->cover ?>" class="card-img-top" alt="project1">
+                            <img src="/portfolio/assets/images/project/<?= $value->cover ?>" class="card-img-top img-fluid" alt="project1">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $value->name ?></h5>
                                 <p class="card-text"><?= $value->description ?></p>

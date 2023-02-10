@@ -21,9 +21,10 @@ $controller = new ProjectController;
 //appel de la méthode permettant de récupéré le méthode readAll
 $oneProject = $controller->readOneProject($_GET["id"]);
 
+
 ?>
 <main>
-    <div class="container text-dark">
+    <div class="container text-dark pt-5">
         <h1 class="Mon portfolio text-dark"></h1>
         <div class="row">
             <table>
@@ -68,6 +69,15 @@ $oneProject = $controller->readOneProject($_GET["id"]);
         </button>
         </div>
     </div>
+
+    <h3>Compétence</h3>
+    <?php
+    foreach($oneProject->skills as $skill){    ?>
+    <ul>
+    <li><?= $skill->name?></li>
+    </ul>
+
+    <?php    }  ?>
 
 </main>
 

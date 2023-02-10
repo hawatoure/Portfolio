@@ -1,11 +1,9 @@
 
-*{
-;
-}
+
 
 nav.bg-dark {
     --bs-bg-opacity: ;
-    background-color:#aba39d!important;
+    background-color:black!important;
 }
 
 .footer{
@@ -16,12 +14,47 @@ nav.bg-dark {
 .footer {
     background-color: #aba39d!important;
 }
+.bg-progress{ background-color: #aba39d!important;}
 
-@media (min-width: 992px){.container, .container-lg, .container-md, .container-sm {
-    /* max-width: 960px; */
-}}
+.contain1{
+    background-color:black!important;
+    width: 100%;
+    max-width: 1920px;
+}
+.bg-accueil{  
+   
+    height: 100%;
+    background-image: url(/portfolio/assets/images/accueil/imgAccueil.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+    position: relative;
+}
 
-@media (min-width: 768px){.container, .container-md, .container-sm {
-    /* max-width: 720px; */
-}}
 
+
+
+.bg-accueil:hover{
+    webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+.card-img-top{
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}

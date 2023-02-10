@@ -3,10 +3,12 @@
 
 class SkillModel{
 
-    public int $in_skill;
+    public int $id_skill;
     public string $name;
-    public string $level;
-    public string $picture;
+    public int $level;
+    public ?string $picture;
+    public ?string $projects;
+
 
 }
 

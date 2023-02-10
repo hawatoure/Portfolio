@@ -11,23 +11,25 @@
 
 <main>
 
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark bg-accueil">
-    
-   
-    <div class="col-md-5 p-lg-5 mx-auto my-5">
-      <h1 class="display-4 fw-normal">Punny headline</h1>
-      <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-      <a class="btn btn-outline-secondary" href="#">Qui je suis</a>
-    </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-  </div>
+<div class="conatainer contain1 right">
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center img1 bg-accueil">  
+      
+        <div class="col-md-5 p-lg-5 mx-auto my-5  ">
+          <h1 class="display-4 fw-bold text-white">Hawa TOURE</h1>
+          <h2 class="lead fw-bold text-white">Développeuse informatique.</h2>
+          <a class="btn btn-outline-light fw-bold" href="#">Qui je suis</a>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </img>
+      </div>
+
+</div>
+
 
       <!-- Custom styles for this template -->
       <link href="carousel.css" rel="stylesheet">
-  </head>
-  <body>
-    
+
 
 
 
@@ -91,21 +93,21 @@
 
     <!-- Three columns of text below the carousel -->
     <div class="row mx-auto">
-      <div class="col-lg-4 mx-auto">
+      <div class="col-lg-4 mx-auto text-center">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
         <h2>Heading</h2>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4 mx-auto">
+      <div class="col-lg-4 mx-auto text-center">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
         <h2>Heading</h2>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4 mx-auto">
+      <div class="col-lg-4 mx-auto text-center">
         <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
         <h2>Heading</h2>
